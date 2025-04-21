@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const bcrypt = require("bcrypt"); // ✅ Import bcrypt
+const bcrypt = require("bcryptjs"); // ✅ Import bcrypt
 const User = require('../models/user.js');
 
 const SALT_ROUNDS = 10; // You can adjust this as needed
